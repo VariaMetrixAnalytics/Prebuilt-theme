@@ -1,4 +1,8 @@
 :root {
+    --app-theme-success: #8ee05c;
+    --app-theme-info:  #302b2c;
+    --app-theme-warning: #856404;
+    
     /* 
         Basic color scheme
     */
