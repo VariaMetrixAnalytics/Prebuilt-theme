@@ -4,15 +4,16 @@
     --app-theme-warning: #856404;
     
     /* 
-        Basic color scheme
+        Basic color pallete
     */
-    --app-theme-basic-100: #484848;
-    --app-theme-basic-200: #404040;
-    --app-theme-basic-300: #383838;
-    --app-theme-basic-400: #313131;
-    --app-theme-basic-500: #292929;
-    --app-theme-basic-600: #222222;
-    
+    --app-theme-basic-100: #474747;
+    --app-theme-basic-200: #414141;
+    --app-theme-basic-300: #3a3a3a;
+    --app-theme-basic-400: #343434;
+    --app-theme-basic-500: #2e2e2e;
+    --app-theme-basic-600: #282828;
+    --app-theme-basic-700: #222222;
+
     --app-theme-basic-contrast-100:#ffffff;
     --app-theme-basic-contrast-A100: #ffffff;
     --app-theme-basic-contrast-200: #ffffff;
@@ -25,10 +26,11 @@
     --app-theme-basic-contrast-A500: #9c979a;
     --app-theme-basic-contrast-600: #ffffff;
     --app-theme-basic-contrast-A600: #9c979a;
-
+    --app-theme-basic-contrast-700: #ffffff;
+    --app-theme-basic-contrast-A700: #9c979a;
 
     /* 
-        Primary color scheme
+        Primary color pallete
     */
     --app-theme-accent-100: #ccebcb;
     --app-theme-accent-200: #beecbd;
@@ -51,7 +53,7 @@
     --app-theme-accent-contrast-900: #0277BD;
 
     /* 
-        Accent color scheme
+        Accent color pallete
     */
     --app-theme-primary-100: #e6b8e1;
     --app-theme-primary-200: #cb95c6;
@@ -83,7 +85,7 @@
     --app-theme-warn-contrast-600: #f9f6f8;
 
     /* 
-        Dark color scheme: Use to color controls
+        Dark color pallete: Use to color controls
     */
     --app-theme-dark-100: #464646;
     --app-theme-dark-200: #3f3f3f;
@@ -98,4 +100,4 @@
     --app-theme-dark-contrast-400: #ffffff;
     --app-theme-dark-contrast-500: #f9f6f8;
     --app-theme-dark-contrast-600: #ffffff;
-}   
+}
