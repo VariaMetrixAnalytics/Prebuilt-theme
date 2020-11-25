@@ -33,15 +33,15 @@
     /* 
         Primary color scheme
     */
-    --app-theme-accent-100: #f4dafc;
-    --app-theme-accent-200: #e6c3f1;
-    --app-theme-accent-300: #d7ace5;
-    --app-theme-accent-400: #c896da;
-    --app-theme-accent-500: #b97fcf;
-    --app-theme-accent-600: #aa69c4;
-    --app-theme-accent-700: #9b52b8;
-    --app-theme-accent-800: #8b3bad;
-    --app-theme-accent-900: #7b1fa2;
+    --app-theme-accent-100: #e1f5fe;
+    --app-theme-accent-200: #B3E5FC;
+    --app-theme-accent-300: #81D4FA;
+    --app-theme-accent-400: #4FC3F7;
+    --app-theme-accent-500: #29B6F6;
+    --app-theme-accent-600: #03A9F4;
+    --app-theme-accent-700: #039BE5;
+    --app-theme-accent-800: #0288D1;
+    --app-theme-accent-900: #0277BD;
 
     --app-theme-accent-contrast-100: #ffffff;
     --app-theme-accent-contrast-200: #ffffff;
@@ -120,14 +120,14 @@
     /* 
         Attention theme color
     */
-    --app-theme-attention-800: #00796b;
-    --app-theme-attention-700: #37897c;
-    --app-theme-attention-600: #579a8e;
-    --app-theme-attention-500: #74aaa0;
-    --app-theme-attention-400: #90bbb2;
-    --app-theme-attention-300: #acccc5;
-    --app-theme-attention-200: #c7ddd8;
-    --app-theme-attention-100: #ffffff;
+    --app-theme-attention-800: #0055AA;
+    --app-theme-attention-700: #0077DD;
+    --app-theme-attention-600: #0091FF;
+    --app-theme-attention-500: #44AAFF;
+    --app-theme-attention-400: #88CCFF;
+    --app-theme-attention-300: #CCE8FF;
+    --app-theme-attention-200: #EEF8FF;
+    --app-theme-attention-100: #FFFFFF;
 
     
     --app-theme-attention-100-contrast-500: #000000;

@@ -2,6 +2,8 @@
     --app-theme-success: #8ee05c;
     --app-theme-info:  #302b2c;
     --app-theme-warning: #856404;
+
+    --table-td-action-link: white;
     
     /* 
         Basic color pallete
@@ -53,40 +55,165 @@
     --app-theme-accent-contrast-900: #0277BD;
 
     /* 
-        Accent color pallete
+        Neutral colors
     */
-    --app-theme-primary-100: #e6b8e1;
-    --app-theme-primary-200: #cb95c6;
-    --app-theme-primary-300: #b073ab;
-    --app-theme-primary-400: #965191;
-    --app-theme-primary-500: #7b2f78;
-    --app-theme-primary-600: #61005f;
+    --app-theme-neutral-1000: #000000;
+    --app-theme-neutral-900: #1a1a1a;
+    --app-theme-neutral-800: #2d2d2d;
+    --app-theme-neutral-700: #424242;
+    --app-theme-neutral-600: #575757;
+    --app-theme-neutral-500: #6e6e6e;
+    --app-theme-neutral-400: #858585;
+    --app-theme-neutral-300: #9d9d9d;
+    --app-theme-neutral-200-A200: #929292;
+    --app-theme-neutral-200-A100: #adadad;
+    --app-theme-neutral-200: #b6b6b6;
+    --app-theme-neutral-100: #c9c9c9;
 
-    --app-theme-primary-contrast-100: black;
-    --app-theme-primary-contrast-200: #ffffff;
-    --app-theme-primary-contrast-300: black;
-    --app-theme-primary-contrast-400: #ffffff;
-    --app-theme-primary-contrast-500: #f9f6f8;
-    --app-theme-primary-contrast-A500:#f86237;
-    --app-theme-primary-contrast-600: #ffffff;
+    --app-theme-neutral-100-contrast-400: #ffffff;
+    --app-theme-neutral-100-contrast-300: #ffffff;
+    --app-theme-neutral-100-contrast-200: #ffffff;
+    --app-theme-neutral-100-contrast-100: #ffffff;
 
-    --app-theme-warn-100: #ff4597;
-    --app-theme-warn-200: #ed1e79;
-    --app-theme-warn-300: #d31b6c;
-    --app-theme-warn-400: #ba185f;
-    --app-theme-warn-500: #a01452;
-    --app-theme-warn-600: #8c1147;
+    --app-theme-neutral-200-contrast-400: #ffffff;
+    --app-theme-neutral-200-contrast-300: #ffffff;
+    --app-theme-neutral-200-contrast-200: #ffffff;
+    --app-theme-neutral-200-contrast-100: #ffffff;
 
-    --app-theme-warn-contrast-100: #f9f6f8;
-    --app-theme-warn-contrast-200: #f9f6f8;
-    --app-theme-warn-contrast-300: #f9f6f8;
-    --app-theme-warn-contrast-400: #f9f6f8;
-    --app-theme-warn-contrast-500: #f9f6f8;
-    --app-theme-warn-contrast-600: #f9f6f8;
+    --app-theme-neutral-300-contrast-400: #ffffff;
+    --app-theme-neutral-300-contrast-300: #ffffff;
+    --app-theme-neutral-300-contrast-200: #ffffff;
+
+    --app-theme-neutral-400-contrast-200: #ffffff;
+    --app-theme-neutral-400-contrast-100: #ffffff;
+
+    --app-theme-neutral-500-contrast-200: #ffffff;
+    --app-theme-neutral-500-contrast-100: #ffffff;
+
+    --app-theme-neutral-600-contrast-100: #ffffff;
+
+    --app-theme-neutral-700-contrast-200: #ffffff;
+    --app-theme-neutral-700-contrast-100: #ffffff;
+
+    --app-theme-neutral-800-contrast-500: #ffffff;
+    --app-theme-neutral-800-contrast-400: #ffffff;
+    --app-theme-neutral-800-contrast-300: #ffffff;
+    --app-theme-neutral-800-contrast-200: #ffffff;
+    --app-theme-neutral-800-contrast-100: #ffffff;
+
+    --app-theme-neutral-900-contrast-500: #ffffff;
+    --app-theme-neutral-900-contrast-400: #ffffff;
+    --app-theme-neutral-900-contrast-300: #ffffff;
+    --app-theme-neutral-900-contrast-200: #ffffff;
+    --app-theme-neutral-900-contrast-100: #ffffff;
+
+    --app-theme-neutral-1000-contrast-600: #ffffff;
+    --app-theme-neutral-1000-contrast-500: #ffffff;
+    --app-theme-neutral-1000-contrast-400: #ffffff;
+    --app-theme-neutral-1000-contrast-300: #ffffff;
+    --app-theme-neutral-1000-contrast-200: #ffffff;
+    --app-theme-neutral-1000-contrast-100: #ffffff;
 
     /* 
-        Dark color pallete: Use to color controls
+        Attention theme color
     */
+    --app-theme-attention-800: #01413b;
+    --app-theme-attention-700: #01413b;
+    --app-theme-attention-600: #034a43;
+    --app-theme-attention-500: #06534c;
+    --app-theme-attention-400: #0a5c54;
+    --app-theme-attention-300: #0e655d;
+    --app-theme-attention-200: #126e66;
+    --app-theme-attention-100: #16786f;
+
+    --app-theme-attention-100-contrast-500: #ffffff;
+    --app-theme-attention-100-contrast-400: #f3f3f3;
+    --app-theme-attention-100-contrast-300: #e8e8e8;
+    --app-theme-attention-100-contrast-200: #dddddd;
+    --app-theme-attention-100-contrast-100: #d1d1d1;
+
+    --app-theme-attention-100-contrast-400: #ffffff;
+    --app-theme-attention-100-contrast-300: #f3f3f3;
+    --app-theme-attention-100-contrast-200: #e8e8e8;
+    --app-theme-attention-100-contrast-100: #dddddd;
+
+    --app-theme-attention-200-contrast-400: #ffffff;
+    --app-theme-attention-200-contrast-300: #f3f3f3;
+    --app-theme-attention-200-contrast-200: #e8e8e8;
+    --app-theme-attention-200-contrast-100: #dddddd;
+
+    --app-theme-attention-300-contrast-300: #ffffff;
+    --app-theme-attention-300-contrast-200: #f3f3f3;
+    --app-theme-attention-300-contrast-100: #e8e8e8;
+
+    --app-theme-attention-400-contrast-200: #ffffff;
+    --app-theme-attention-400-contrast-100: #f3f3f3;
+
+    --app-theme-attention-500-contrast-200: #ffffff;
+    --app-theme-attention-500-contrast-100: #f3f3f3;
+
+    --app-theme-attention-600-contrast-200: #ffffff;
+    --app-theme-attention-600-contrast-100: #f3f3f3;
+
+    --app-theme-attention-700-contrast-300: #ffffff;
+    --app-theme-attention-700-contrast-200: #f3f3f3;
+    --app-theme-attention-700-contrast-100: #e8e8e8;
+
+    /* 
+        Dark color scheme: Use to color controls
+    */
+    --app-theme-dark-100: #474545;
+    --app-theme-dark-200: #363132;
+    --app-theme-dark-300: #302b2c;
+    --app-theme-dark-400: #231f20;
+    --app-theme-dark-500: #1f1b1c;
+    --app-theme-dark-600: black;
+
+    --app-theme-dark-contrast-100: #f9f6f8;
+    --app-theme-dark-contrast-200: #ffffff;
+    --app-theme-dark-contrast-300: #f0eaee;
+    --app-theme-dark-contrast-A300: #c4bec1;
+    --app-theme-dark-contrast-400: #ffffff;
+    --app-theme-dark-contrast-500: #f9f6f8;
+    --app-theme-dark-contrast-600: #ffffff;
+
+    /* 
+        End attention theme  color
+    */
+
+    --app-theme-focus-600: #CC0066;
+    --app-theme-focus-500: #EE0077;
+    --app-theme-focus-400: #FF3399;
+    --app-theme-focus-300: #FF66B3;
+    --app-theme-focus-200: #FF88CC;
+    --app-theme-focus-100: #FFBBDD;
+
+
+    --app-theme-focus-100-contrast-300: #000000;
+    --app-theme-focus-100-contrast-200: #222333;
+    --app-theme-focus-100-contrast-100: #404D5A;
+
+    --app-theme-focus-200-contrast-300: #000000;
+    --app-theme-focus-200-contrast-200: #222333;
+    --app-theme-focus-200-contrast-100: #404D5A;
+
+    --app-theme-focus-300-contrast-100: #000000;
+    --app-theme-focus-300-contrast-200: #222333;
+
+    --app-theme-focus-400-contrast-200: #222333;
+    --app-theme-focus-400-contrast-100: #000000;
+
+    --app-theme-focus-500-contrast-200: #000000;
+    --app-theme-focus-500-contrast-100: #FFFFFF;
+
+    --app-theme-focus-600-contrast-200: #EEEEEE;
+    --app-theme-focus-600-contrast-100: #FFFFFF;
+
+
+    /* 
+        Dark color scheme: Use to color controls
+    */
+
     --app-theme-dark-100: #464646;
     --app-theme-dark-200: #3f3f3f;
     --app-theme-dark-300: #373737;
@@ -100,4 +227,21 @@
     --app-theme-dark-contrast-400: #ffffff;
     --app-theme-dark-contrast-500: #f9f6f8;
     --app-theme-dark-contrast-600: #ffffff;
+
+    /* 
+        Warn color scheme
+    */
+    --app-theme-warn-100: #ff4597;
+    --app-theme-warn-200: #ed1e79;
+    --app-theme-warn-300: #d31b6c;
+    --app-theme-warn-400: #ba185f;
+    --app-theme-warn-500: #a01452;
+    --app-theme-warn-600: #8c1147;
+
+    --app-theme-warn-contrast-100: #f9f6f8;
+    --app-theme-warn-contrast-200: #f9f6f8;
+    --app-theme-warn-contrast-300: #f9f6f8;
+    --app-theme-warn-contrast-400: #f9f6f8;
+    --app-theme-warn-contrast-500: #f9f6f8;
+    --app-theme-warn-contrast-600: #f9f6f8;
 }
